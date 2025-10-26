@@ -1,0 +1,87 @@
+# Environment and Secrets
+.env
+.env.local
+.env.*.local
+secrets.json
+credentials.json
+api_keys.txt
+SHODAN_API_KEY
+*.key
+*.pem
+*.p12
+
+# Test and Results
+*_results.txt
+*_results.json
+*_results.csv
+*.csv
+test_output.txt
+output/
+screenshots/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+bin/
+lib/
+pyvenv.cfg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
+*.temp
+
+# Logs
+*.log
+logs/
+
+# Cache
+.cache/
+.pytest_cache/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Sensitive output
+*token*
+*password*
+*secret*
+config.ini
