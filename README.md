@@ -1,5 +1,7 @@
 # AI-Marketing-Agent
 
+> **⚠️ Note**: If you found this repository, you've likely discovered the method that was used to find whoever found this repository. It's OSINT all the way down.
+
 An intelligent email outreach system that uses Kali Linux OSINT tools, chain filtering, and AI-powered email generation to identify and contact local businesses.
 
 ## Features
