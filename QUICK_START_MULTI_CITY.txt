@@ -1,0 +1,201 @@
+================================================================================
+MULTI-CITY CRAWLER - QUICK REFERENCE
+================================================================================
+
+USAGE:
+------
+python3 crawl_verified.py "City Name" "State"
+
+EXAMPLES:
+---------
+python3 crawl_verified.py "Fort Smith" "AR"      # Already has data - ready to run
+python3 crawl_verified.py "Fayetteville" "AR"    # Needs data file first
+python3 crawl_verified.py "Little Rock" "AR"     # Needs data file first
+python3 crawl_verified.py "Denver" "CO"          # Works for any state
+
+================================================================================
+ADDING A NEW CITY IN 3 STEPS
+================================================================================
+
+Step 1: Create Template
+    python3 business_data_loader.py create "Fayetteville" "AR"
+    → Creates: business_data/fayetteville_ar.csv
+
+Step 2: Add Business Data to CSV
+    Edit business_data/fayetteville_ar.csv
+    Format: name, address, phone, website
+
+    Example:
+    Smith's Auto,"123 Main St, Fayetteville, AR 72701",479-555-1234,smithsauto.com
+    Jones Plumbing,"456 Oak Ave, Fayetteville, AR 72701",479-555-5678,
+
+Step 3: Run Crawl
+    python3 crawl_verified.py "Fayetteville" "AR"
+    → Outputs: fayetteville_ar_verified_results.csv
+
+================================================================================
+DATA SOURCES
+================================================================================
+
+Google Maps (Easiest):
+  1. Search "Fayetteville, AR" + "Restaurants" (or your category)
+  2. Export/screenshot the list
+  3. Copy into Excel
+  4. Save as CSV
+  5. Paste into business_data/city_state.csv
+
+BBB.org:
+  1. Go to bbb.org
+  2. Search by city
+  3. Copy business info
+  4. Paste into CSV
+
+Yelp:
+  1. Search city + category
+  2. View business list
+  3. Copy name, phone, address
+  4. Visit websites to add domains
+
+Chamber of Commerce:
+  1. Find local chamber website
+  2. Download member directory
+  3. Convert to CSV
+
+================================================================================
+CSV FORMAT
+================================================================================
+
+Headers (required):
+  name,address,phone,website
+
+Example row:
+  "Smith's Auto Repair","123 Main St, Fayetteville, AR 72701","479-555-1234","smithsauto.com"
+
+Notes:
+  - name: Company name (required)
+  - address: Full address including city, state, ZIP (required)
+  - phone: Contact phone with area code (required)
+  - website: Domain name or blank (optional - crawler guesses patterns)
+
+================================================================================
+WHAT YOU GET
+================================================================================
+
+Output Files (for each city):
+  [city]_[state]_verified_results.csv
+    → All prospects with scores, phone numbers, tech details
+    → Use Contact_Phone column for outreach
+
+  [city]_[state]_verified_execution.log
+    → Execution details, what was verified, what failed
+
+Each prospect includes:
+  ✓ Company name
+  ✓ Full address
+  ✓ Contact phone number (ready to dial)
+  ✓ Verified domain (confirmed via HTTP)
+  ✓ Sales score (0-100)
+  ✓ Tech stack (WordPress, servers, security)
+  ✓ Recommendation (CONTACT/MAYBE/EXCLUDE)
+
+================================================================================
+BATCH PROCESSING (Multiple Cities)
+================================================================================
+
+Create batch_crawl.sh:
+
+#!/bin/bash
+CITIES=("Fort Smith:AR" "Fayetteville:AR" "Little Rock:AR" "Rogers:AR")
+for city_state in "${CITIES[@]}"; do
+  IFS=':' read -r city state <<< "$city_state"
+  python3 crawl_verified.py "$city" "$state"
+done
+
+Run it:
+  chmod +x batch_crawl.sh
+  ./batch_crawl.sh
+
+================================================================================
+IMPORTANT NOTES
+================================================================================
+
+✓ ONLY verified domains appear in output
+  - Domain must resolve in DNS
+  - Domain must respond to HTTP request
+  - No fake/hallucinated companies
+
+✓ Phone numbers are REAL
+  - Copy Contact_Phone column directly into dialer
+  - Ready to call immediately
+
+✓ Scores based on ACTUAL DETECTED TECH
+  - WordPress: +20 points
+  - Server detected: +15 points
+  - Vulnerable plugins: +25 points
+  - Not based on guessing
+
+✓ CSV format allows easy import
+  - Works with HubSpot, Salesforce, Pipedrive
+  - Can copy/paste into Excel, Google Sheets
+  - Phone numbers ready for bulk dialing
+
+================================================================================
+TROUBLESHOOTING
+================================================================================
+
+"No data file found for City"
+→ Run: python3 business_data_loader.py create "City" "ST"
+→ Then populate the CSV file
+
+"0 verified businesses"
+→ Check domain names in CSV are correct
+→ Verify websites exist manually
+→ Some small businesses have no website (leave blank)
+
+"All scored 50 (baseline)"
+→ Not all sites are WordPress
+→ Some are custom-built, static, or other CMS
+→ This is HONEST scoring - still good leads!
+
+================================================================================
+QUICK COMMANDS
+================================================================================
+
+List all available cities:
+  python3 business_data_loader.py list
+
+Create new city template:
+  python3 business_data_loader.py create "City" "ST"
+
+Run crawl for any city:
+  python3 crawl_verified.py "City" "ST"
+
+View results (Fort Smith example):
+  cat fort_smith_ar_verified_execution.log
+  head -20 fort_smith_ar_verified_results.csv
+
+Edit business data:
+  nano business_data/city_state.csv
+  # or open in Excel
+
+================================================================================
+NEXT STEPS
+================================================================================
+
+1. Fort Smith: python3 crawl_verified.py "Fort Smith" "AR"
+   → 48 prospects ready to contact
+
+2. Add Fayetteville:
+   → python3 business_data_loader.py create "Fayetteville" "AR"
+   → Populate CSV with Google Maps data
+   → python3 crawl_verified.py "Fayetteville" "AR"
+
+3. Scale to more cities:
+   → Repeat for Little Rock, Rogers, Jonesboro, etc.
+   → Use batch_crawl.sh for all cities at once
+
+4. Move to other states:
+   → Same process works for ANY city/state
+   → Just create new CSV files
+
+================================================================================
