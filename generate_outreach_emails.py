@@ -4,14 +4,16 @@ Email Outreach Generator for Verified Prospects
 Automatically generates personalized emails for ANY city's verified crawl results
 
 Usage:
-    python3 generate_outreach_emails.py "fort_smith" "ar"
-    python3 generate_outreach_emails.py "fayetteville" "ar"
+    python3 generate_outreach_emails.py "Fort Smith" "AR"
+    python3 generate_outreach_emails.py "Fayetteville" "AR" "my_persona.json"
 
-Input: [city]_[state]_verified_results.csv (from crawl_verified.py)
+Input:
+    - [city]_[state]_verified_results.csv (from crawl_verified.py)
+    - Optional: persona.json file with sender details
+
 Output:
-    - [city]_[state]_outreach_emails.txt (email previews)
+    - [city]_[state]_outreach_report.txt (email previews)
     - [city]_[state]_outreach_emails.json (structured data)
-    - [city]_[state]_outreach_report.txt (summary + strategy)
 """
 
 import pandas as pd
@@ -260,22 +262,69 @@ def format_email_report(emails, city: str, state: str):
 
     return "\n".join(report)
 
+def load_persona(persona_file=None):
+    """Load sender details from persona JSON file"""
+    # Default persona
+    default_persona = {
+        'name': 'Roger',
+        'phone': '(555) 123-4567',
+        'email': 'roger@example.com',
+        'title': 'n8n Automation & WordPress Security Specialist'
+    }
+
+    if not persona_file:
+        return default_persona
+
+    if not os.path.exists(persona_file):
+        print(f"Warning: Persona file '{persona_file}' not found.")
+        print("Using default persona (Roger).")
+        return default_persona
+
+    try:
+        with open(persona_file, 'r') as f:
+            persona = json.load(f)
+
+        # Validate required fields
+        required = ['name', 'phone', 'email', 'title']
+        for field in required:
+            if field not in persona:
+                print(f"Warning: '{field}' missing from persona file. Using default.")
+                return default_persona
+
+        print(f"✓ Loaded persona: {persona['name']}")
+        return persona
+    except json.JSONDecodeError:
+        print(f"Error: Invalid JSON in {persona_file}")
+        print("Using default persona.")
+        return default_persona
+
 def main():
     if len(sys.argv) < 3:
-        print("Usage: python3 generate_outreach_emails.py <city> <state>")
+        print("Usage: python3 generate_outreach_emails.py <city> <state> [persona_file]")
         print("\nExamples:")
         print("  python3 generate_outreach_emails.py \"Fort Smith\" \"AR\"")
-        print("  python3 generate_outreach_emails.py \"Fayetteville\" \"AR\"")
+        print("  python3 generate_outreach_emails.py \"Fayetteville\" \"AR\" \"my_persona.json\"")
+        print("\nPersona file format (JSON):")
+        print('  {')
+        print('    "name": "Your Name",')
+        print('    "phone": "(555) 123-4567",')
+        print('    "email": "your@email.com",')
+        print('    "title": "Your Job Title"')
+        print("  }")
         print("\nThis reads from: [city]_[state]_verified_results.csv")
         print("First run: python3 crawl_verified.py \"City\" \"State\"")
         sys.exit(1)
 
     city = sys.argv[1]
     state = sys.argv[2]
+    persona_file = sys.argv[3] if len(sys.argv) > 3 else None
     city_slug = city.lower().replace(" ", "_")
     state_slug = state.lower().replace(" ", "_")
 
     csv_file = f"{city_slug}_{state_slug}_verified_results.csv"
+
+    # Load persona
+    persona = load_persona(persona_file)
 
     print("="*80)
     print("EMAIL OUTREACH GENERATOR")
@@ -284,7 +333,12 @@ def main():
 
     # Generate emails
     print(f"📧 Generating emails for {city}, {state}...")
-    emails = generate_emails(csv_file)
+    emails = generate_emails(
+        csv_file,
+        sender_name=persona['name'],
+        sender_phone=persona['phone'],
+        sender_email=persona['email']
+    )
 
     if not emails:
         return
