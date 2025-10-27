@@ -1,0 +1,87 @@
+Company,Address,Phone,Website,Domain_Guessed,Sales_Fit_Score,Sales_Recommendation,Has_WordPress,Server_Detected,Security_Headers_Count
+Smith Brothers Auto Repair,"2324 Garrison Avenue, Fort Smith, AR 72901",479-782-5500,smithbrosautoftsmith.com,smithbrosautoftsmith.com,65,MAYBE,No,None,0
+A1 Plumbing & Drain Service,"3201 Jenny Lind Road, Fort Smith, AR 72901",479-783-7000,,a1plumbinganddrainse.com,65,MAYBE,No,None,0
+Fort Smith Toyota,"5340 Rogers Avenue, Fort Smith, AR 72903",479-452-5000,fortsmithtoyota.com,fortsmithtoyota.com,65,MAYBE,No,None,0
+Parker Ford Lincoln,"3801 Rogers Avenue, Fort Smith, AR 72903",479-784-1000,parkerfordlincoln.com,parkerfordlincoln.com,65,MAYBE,No,None,0
+Hendrick Auto Group,"2500 Old Wire Road, Fort Smith, AR 72901",479-782-8900,,hendrickautogroup.com,65,MAYBE,No,None,0
+Johnny's Auto Service,"1620 South 52nd Street, Fort Smith, AR 72908",479-646-7777,,johnny'sautoservice.com,65,MAYBE,No,None,0
+Tommy's Tire & Auto,"4101 Rogers Avenue, Fort Smith, AR 72903",479-783-8765,,tommy'stireandauto.com,65,MAYBE,No,None,0
+West Side Transmission,"3101 Garrison Avenue, Fort Smith, AR 72901",479-783-2900,,westsidetransmission.com,80,CONTACT,Yes,nginx,0
+Cossatot River Hardwoods,"1220 North 14th Street, Fort Smith, AR 72901",479-783-6300,cossatotriver.com,cossatotriver.com,80,CONTACT,Yes,nginx,1
+Belle Grove Antiques,"221 Garrison Avenue, Fort Smith, AR 72901",479-783-7373,,bellegroveantiques.com,65,MAYBE,No,None,0
+Ozark Natural Foods,"22 South Old Wire Road, Fort Smith, AR 72901",479-782-5555,ozarknaturalfoods.com,ozarknaturalfoods.com,65,MAYBE,No,None,0
+Residential Services & Supply,"3131 Old Greenwood Road, Fort Smith, AR 72903",479-783-1555,,residentialservicesa.com,65,MAYBE,No,None,0
+Downtown Antique Mall,"623 Garrison Avenue, Fort Smith, AR 72901",479-785-0321,,downtownantiquemall.com,60,MAYBE,Yes,Apache,3
+Fort Smith Gift Gallery,"319 Main Street, Fort Smith, AR 72901",479-782-3456,,fortsmithgiftgallery.com,65,MAYBE,No,None,0
+The Pottery Place,"1001 Rogers Avenue, Fort Smith, AR 72901",479-784-5678,,thepotteryplace.com,60,MAYBE,Yes,nginx-rc,3
+Salvation Army Thrift Store,"2319 Rogers Avenue, Fort Smith, AR 72903",479-783-9012,,salvationarmythrifts.com,65,MAYBE,No,None,0
+River Valley Home Decor,"425 Main Street, Fort Smith, AR 72901",479-782-7890,,rivervalleyhomedecor.com,65,MAYBE,No,None,0
+Fabric & Craft Outlet,"3225 Garrison Avenue, Fort Smith, AR 72901",479-783-4567,,fabricandcraftoutlet.com,65,MAYBE,No,None,0
+Downtown Books & More,"510 Main Street, Fort Smith, AR 72901",479-782-5555,,downtownbooksandmore.com,65,MAYBE,No,None,0
+River City Steakhouse,"623 North 23rd Street, Fort Smith, AR 72901",479-783-2344,rivercitysteakhouse.com,rivercitysteakhouse.com,65,MAYBE,No,None,0
+The Catfish Hole,"2401 Rogers Avenue, Fort Smith, AR 72903",479-783-8765,,thecatfishhole.com,65,MAYBE,No,None,0
+Leatherby's Family Creamery,"3131 Towson Avenue, Fort Smith, AR 72901",479-783-5566,,leatherby'sfamilycre.com,65,MAYBE,No,None,0
+Tamashii Ramen House,"119 North 16th Street, Fort Smith, AR 72901",479-785-7788,tamashiiramen.com,tamashiiramen.com,65,MAYBE,No,None,0
+Cinnamon Stick Cafe,"211 Garrison Avenue, Fort Smith, AR 72901",479-782-4455,,cinnamonstickcafe.com,65,MAYBE,No,None,0
+Marco's Italian Kitchen,"3201 Rogers Avenue, Fort Smith, AR 72903",479-784-1111,marcositalian.com,marcositalian.com,65,MAYBE,No,None,0
+The Grill at River Front,"100 Riverfront Drive, Fort Smith, AR 72901",479-783-5555,,thegrillatriverfront.com,65,MAYBE,No,None,0
+City Brew Coffee,"315 Main Street, Fort Smith, AR 72901",479-782-3344,citybrew.com,citybrew.com,80,CONTACT,Yes,Apache,0
+Tropical Smoothie Cafe,"2500 Rogers Avenue, Fort Smith, AR 72903",479-783-2211,,tropicalsmoothiecafe.com,80,CONTACT,Yes,cloudflare,0
+The Donut Man,"401 North 16th Street, Fort Smith, AR 72901",479-782-0099,,thedonutman.com,65,MAYBE,No,None,0
+River City Pizza Co,"423 Main Street, Fort Smith, AR 72901",479-782-6666,rivercitypizza.com,rivercitypizza.com,65,MAYBE,No,None,1
+Classic Diner 66,"3310 Rogers Avenue, Fort Smith, AR 72903",479-783-1234,,classicdiner66.com,65,MAYBE,No,None,0
+Parker Young & Associates CPA,"10 North B Street, Fort Smith, AR 72901",479-784-4700,parkeryoungcpa.com,parkeryoungcpa.com,65,MAYBE,No,None,0
+Fort Smith Business Services,"623 Garrison Avenue, Fort Smith, AR 72901",479-783-5566,,fortsmithbusinessser.com,65,MAYBE,No,None,0
+River Valley Law Group,"200 North B Street, Fort Smith, AR 72901",479-783-9999,rivervalleylaw.com,rivervalleylaw.com,80,CONTACT,Yes,nginx,0
+Anderson & Associates,"310 Main Street, Fort Smith, AR 72901",479-782-8888,,andersonandassociate.com,65,MAYBE,No,None,0
+Fort Smith Consulting Group,"425 North B Street, Fort Smith, AR 72901",479-784-1234,fsccgroup.com,fsccgroup.com,65,MAYBE,No,Kestrel,0
+Business Solutions Plus,"315 Garrison Avenue, Fort Smith, AR 72901",479-783-5577,,businesssolutionsplu.com,65,MAYBE,No,None,0
+Executive Search Partners,"520 Main Street, Fort Smith, AR 72901",479-782-9999,execsearch.com,execsearch.com,65,MAYBE,No,None,0
+Architectural Plus Design,"1001 Rogers Avenue, Fort Smith, AR 72901",479-783-8765,,architecturalplusdes.com,65,MAYBE,No,None,0
+Fort Smith Engineering Services,"2101 Rogers Avenue, Fort Smith, AR 72903",479-783-4444,,fortsmithengineering.com,65,MAYBE,No,None,0
+Tax Planning Solutions,"215 Main Street, Fort Smith, AR 72901",479-782-7777,taxplansolutions.com,taxplansolutions.com,80,CONTACT,Yes,WPX CLOUD/DAL03,0
+Dr. Anderson Family Dentistry,"456 North B Street, Fort Smith, AR 72901",479-783-3333,andersondental.com,andersondental.com,65,MAYBE,No,nginx,0
+Fort Smith Medical Center,"3001 Rogers Avenue, Fort Smith, AR 72903",479-783-1111,fsmedical.com,fsmedical.com,45,EXCLUDE,No,openresty,5
+Valley Physical Therapy,"2515 Garrison Avenue, Fort Smith, AR 72901",479-783-2222,,valleyphysicaltherap.com,65,MAYBE,No,None,0
+River City Chiropractic,"319 North B Street, Fort Smith, AR 72901",479-782-5000,rivercitychiro.com,rivercitychiro.com,80,CONTACT,Yes,cloudflare,0
+Fort Smith Wellness Center,"425 South B Street, Fort Smith, AR 72901",479-783-4040,fswell.com,fswell.com,65,MAYBE,No,None,0
+Dermatology Associates,"612 North B Street, Fort Smith, AR 72901",479-784-1616,,dermatologyassociate.com,65,MAYBE,No,None,0
+Mental Health Services Fort Smith,"301 North B Street, Fort Smith, AR 72901",479-783-5050,,mentalhealthservices.com,65,MAYBE,No,None,1
+Fort Smith Hearing Center,"225 Main Street, Fort Smith, AR 72901",479-782-8877,fshearing.com,fshearing.com,65,MAYBE,No,None,0
+Urgent Care Plus,"2401 Rogers Avenue, Fort Smith, AR 72903",479-783-6060,,urgentcareplus.com,65,MAYBE,No,None,0
+Williams Roofing & Sheet Metal,"2316 Dodson Avenue, Fort Smith, AR 72901",479-782-5522,,williamsroofingandsh.com,0,EXCLUDE,No,None,0
+Fort Smith Electric,"1801 South 46th Street, Fort Smith, AR 72903",479-783-8800,fselectric.com,fselectric.com,65,MAYBE,No,None,0
+River Valley Plumbing,"2101 Garrison Avenue, Fort Smith, AR 72901",479-782-9090,,rivervalleyplumbing.com,80,CONTACT,Yes,nginx/1.27.4,0
+Superior HVAC Services,"3301 Rogers Avenue, Fort Smith, AR 72903",479-783-7777,superiorhvac.com,superiorhvac.com,65,MAYBE,No,None,0
+Fort Smith Concrete & Paving,"2500 South 46th Street, Fort Smith, AR 72903",479-783-3030,,fortsmithconcreteand.com,65,MAYBE,No,None,0
+Local HVAC Specialists,"654 Towson Avenue, Fort Smith, AR 72901",479-782-5500,,localhvacspecialists.com,65,MAYBE,No,None,0
+Quality Painting Contractors,"1201 South 46th Street, Fort Smith, AR 72903",479-783-4444,qualitypainting.com,qualitypainting.com,65,MAYBE,No,Squarespace,2
+Fort Smith Landscaping,"2201 Garrison Avenue, Fort Smith, AR 72901",479-782-3333,,fortsmithlandscaping.com,80,CONTACT,Yes,Flywheel/5.1.0,2
+Home Improvement Center,"3401 Rogers Avenue, Fort Smith, AR 72903",479-783-5555,,homeimprovementcente.com,65,MAYBE,No,None,0
+Fort Smith Convention & Visitors Bureau,"2 North B Street, Fort Smith, AR 72901",479-783-8888,fortsmithcvb.com,fortsmithcvb.com,65,MAYBE,No,None,0
+Riverfront Hotel & Resort,"101 Riverfront Drive, Fort Smith, AR 72901",479-783-6666,riverfront-hotel.com,riverfront-hotel.com,65,MAYBE,No,None,0
+River City Inn,"315 North B Street, Fort Smith, AR 72901",479-782-5555,rivercityinn.com,rivercityinn.com,65,MAYBE,No,Microsoft-IIS/10.0,0
+River Front Court Apartments,"1501 Richmond Terrace, Fort Smith, AR 72901",479-782-1951,,riverfrontcourtapart.com,65,MAYBE,No,None,0
+Fort Smith RV Park,"2301 South 46th Street, Fort Smith, AR 72903",479-783-2020,fsrvpark.com,fsrvpark.com,65,MAYBE,No,None,0
+Clearview Motel,"3101 Rogers Avenue, Fort Smith, AR 72903",479-783-1111,,clearviewmotel.com,65,MAYBE,No,None,0
+Downtown Fort Smith Parking,"410 Main Street, Fort Smith, AR 72901",479-782-0000,,downtownfortsmithpar.com,65,MAYBE,No,None,0
+Fort Smith Visitor Center,"424 Main Street, Fort Smith, AR 72901",479-782-7777,,fortsmithvisitorcent.com,65,MAYBE,No,None,0
+Fort Smith School of Music,"512 North 16th Street, Fort Smith, AR 72901",479-782-4444,fsmusic.com,fsmusic.com,65,MAYBE,No,None,0
+River Valley Dance Academy,"201 Garrison Avenue, Fort Smith, AR 72901",479-783-5555,rvdance.com,rvdance.com,65,MAYBE,No,None,0
+Computer Skills Training Center,"315 North B Street, Fort Smith, AR 72901",479-782-8888,,computerskillstraini.com,65,MAYBE,No,None,0
+Fort Smith Language Institute,"425 Main Street, Fort Smith, AR 72901",479-783-1111,fslanguage.com,fslanguage.com,65,MAYBE,No,None,0
+Professional Development Academy,"612 Garrison Avenue, Fort Smith, AR 72901",479-784-2222,,professionaldevelopm.com,65,MAYBE,No,None,0
+Tech Skills Boot Camp,"321 North B Street, Fort Smith, AR 72901",479-783-9999,techbootcamp.com,techbootcamp.com,65,MAYBE,No,None,0
+Fort Smith Fitness Center,"333 Garrison Avenue, Fort Smith, AR 72901",479-783-5500,fsfit.com,fsfit.com,65,MAYBE,No,None,0
+River City CrossFit,"2101 Rogers Avenue, Fort Smith, AR 72903",479-783-6666,rivercrossfitfs.com,rivercrossfitfs.com,65,MAYBE,No,None,0
+Yoga & Wellness Studio,"405 Main Street, Fort Smith, AR 72901",479-782-3333,yogafs.com,yogafs.com,65,MAYBE,No,None,0
+Tennis Club of Fort Smith,"1501 South 46th Street, Fort Smith, AR 72903",479-783-7777,,tenniscluboffortsmit.com,65,MAYBE,No,None,0
+Fort Smith Golf Course,"2301 Old Greenwood Road, Fort Smith, AR 72903",479-783-4444,fsgolf.com,fsgolf.com,65,MAYBE,No,None,0
+Aquatic Center,"1801 South 46th Street, Fort Smith, AR 72903",479-783-2222,fsaquatic.com,fsaquatic.com,65,MAYBE,No,None,0
+Rock Climbing Gym,"312 Rogers Avenue, Fort Smith, AR 72903",479-784-1111,rockclimbfs.com,rockclimbfs.com,65,MAYBE,No,None,0
+River Valley Realty Group,"425 Main Street, Fort Smith, AR 72901",479-782-1111,rivervalleyrealty.com,rivervalleyrealty.com,65,MAYBE,No,openresty,0
+Fort Smith Property Management,"612 North B Street, Fort Smith, AR 72901",479-783-2222,,fortsmithpropertyman.com,65,MAYBE,No,None,0
+Century 21 Real Estate,"319 Main Street, Fort Smith, AR 72901",479-782-3333,c21fs.com,c21fs.com,65,MAYBE,No,None,0
+Commercial Properties Inc,"515 Garrison Avenue, Fort Smith, AR 72901",479-783-4444,,commercialproperties.com,45,EXCLUDE,No,cloudflare,3
+Home Buyers Association,"405 North B Street, Fort Smith, AR 72901",479-784-5555,homebuyersfs.com,homebuyersfs.com,65,MAYBE,No,None,0
+Property Appraisal Services,"210 Main Street, Fort Smith, AR 72901",479-782-6666,,propertyappraisalser.com,65,MAYBE,No,None,0

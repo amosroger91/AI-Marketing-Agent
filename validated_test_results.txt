@@ -1,0 +1,157 @@
+================================================================================
+VALIDATED BUSINESS TEST - FORT SMITH, AR
+================================================================================
+
+Started: 2025-10-26 14:42:57
+
+Total businesses found: 12
+
+
+================================================================================
+PHASE 0: BUSINESS VALIDATION
+================================================================================
+
+[1/12] Validating: Smith Brothers Auto Repair
+  ✓ VALID (Confidence: 90%)
+
+[2/12] Validating: Cossatot River Hardwoods
+  ✓ VALID (Confidence: 90%)
+
+[3/12] Validating: Belle Grove Antiques
+  ✓ VALID (Confidence: 90%)
+
+[4/12] Validating: Residential Services & Supply
+  ✓ VALID (Confidence: 90%)
+
+[5/12] Validating: Ozark Natural Foods
+  ✓ VALID (Confidence: 90%)
+
+[6/12] Validating: Fort Smith Convention & Visitors Bureau
+  ✓ VALID (Confidence: 90%)
+
+[7/12] Validating: River Front Court Apartments
+  ✓ VALID (Confidence: 90%)
+
+[8/12] Validating: A1 Plumbing & Drain Service
+  ✓ VALID (Confidence: 90%)
+
+[9/12] Validating: Williams Roofing & Sheet Metal
+  ✓ VALID (Confidence: 90%)
+
+[10/12] Validating: Parker Young & Associates CPA
+  ✓ VALID (Confidence: 90%)
+
+[11/12] Validating: Fort Smith Business Services
+  ✓ VALID (Confidence: 90%)
+
+[12/12] Validating: Architectural Plus Design
+  ✓ VALID (Confidence: 90%)
+
+
+✓ Validation complete: 12 valid businesses
+
+
+================================================================================
+PHASE 1: COMPREHENSIVE ANALYSIS
+================================================================================
+
+[1/12] Smith Brothers Auto Repair
+  Domain: smithbrosautoftsmith.com
+  • Detecting tech stack...
+  • Assessing sales fit...
+  ✓ Complete (Score: 65, MAYBE)
+
+[2/12] Cossatot River Hardwoods
+  Domain: cossatotriver.com
+  • Detecting tech stack...
+  • Assessing sales fit...
+  ✓ Complete (Score: 80, CONTACT)
+
+[3/12] Belle Grove Antiques
+  Domain: bellegroveantiques.com
+  • Detecting tech stack...
+  • Assessing sales fit...
+  ✓ Complete (Score: 65, MAYBE)
+
+[4/12] Residential Services & Supply
+  Domain: residentialservicesandsupply.com
+  • Detecting tech stack...
+  • Assessing sales fit...
+  ✓ Complete (Score: 65, MAYBE)
+
+[5/12] Ozark Natural Foods
+  Domain: ozarknaturalfoods.com
+  • Detecting tech stack...
+  • Assessing sales fit...
+  ✓ Complete (Score: 65, MAYBE)
+
+[6/12] Fort Smith Convention & Visitors Bureau
+  Domain: fortsmithcvb.com
+  • Detecting tech stack...
+  • Assessing sales fit...
+  ✓ Complete (Score: 65, MAYBE)
+
+[7/12] River Front Court Apartments
+  Domain: riverfrontcourtapartments.com
+  • Detecting tech stack...
+  • Assessing sales fit...
+  ✓ Complete (Score: 65, MAYBE)
+
+[8/12] A1 Plumbing & Drain Service
+  Domain: a1plumbinganddrainservice.com
+  • Detecting tech stack...
+  • Assessing sales fit...
+  ✓ Complete (Score: 65, MAYBE)
+
+[9/12] Williams Roofing & Sheet Metal
+  Domain: williamsroofingandsheetmetal.com
+  • Detecting tech stack...
+  • Assessing sales fit...
+  ✓ Complete (Score: 0, EXCLUDE)
+
+[10/12] Parker Young & Associates CPA
+  Domain: parkeryoungcpa.com
+  • Detecting tech stack...
+  • Assessing sales fit...
+  ✓ Complete (Score: 65, MAYBE)
+
+[11/12] Fort Smith Business Services
+  Domain: fortsmithbusinessservices.com
+  • Detecting tech stack...
+  • Assessing sales fit...
+  ✓ Complete (Score: 65, MAYBE)
+
+[12/12] Architectural Plus Design
+  Domain: architecturalplusdesign.com
+  • Detecting tech stack...
+  • Assessing sales fit...
+  ✓ Complete (Score: 65, MAYBE)
+
+
+================================================================================
+PHASE 2: CSV GENERATION
+================================================================================
+
+
+
+================================================================================
+PHASE 3: SALES VIABILITY REPORT
+================================================================================
+
+
+================================================================================
+TEST SUMMARY
+================================================================================
+
+Total businesses found: 12
+Validated businesses: 12
+Processed businesses: 12
+Excellent fit (CONTACT): 1
+Good fit (CONTACT/MAYBE): 11
+
+Output files:
+  - CSV data: validated_test_results.csv
+  - Final report: validated_test_final_report.txt
+
+Completed: 2025-10-26 14:44:52
+

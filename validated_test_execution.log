@@ -1,0 +1,356 @@
+================================================================================
+VALIDATED BUSINESS TEST - FORT SMITH, AR
+================================================================================
+
+Started: 2025-10-26 14:42:57
+
+Total businesses found: 12
+
+
+================================================================================
+PHASE 0: BUSINESS VALIDATION
+================================================================================
+
+[1/12] Validating: Smith Brothers Auto Repair
+  ✓ VALID (Confidence: 90%)
+
+[2/12] Validating: Cossatot River Hardwoods
+  ✓ VALID (Confidence: 90%)
+
+[3/12] Validating: Belle Grove Antiques
+  ✓ VALID (Confidence: 90%)
+
+[4/12] Validating: Residential Services & Supply
+  ✓ VALID (Confidence: 90%)
+
+[5/12] Validating: Ozark Natural Foods
+  ✓ VALID (Confidence: 90%)
+
+[6/12] Validating: Fort Smith Convention & Visitors Bureau
+  ✓ VALID (Confidence: 90%)
+
+[7/12] Validating: River Front Court Apartments
+  ✓ VALID (Confidence: 90%)
+
+[8/12] Validating: A1 Plumbing & Drain Service
+  ✓ VALID (Confidence: 90%)
+
+[9/12] Validating: Williams Roofing & Sheet Metal
+  ✓ VALID (Confidence: 90%)
+
+[10/12] Validating: Parker Young & Associates CPA
+  ✓ VALID (Confidence: 90%)
+
+[11/12] Validating: Fort Smith Business Services
+  ✓ VALID (Confidence: 90%)
+
+[12/12] Validating: Architectural Plus Design
+  ✓ VALID (Confidence: 90%)
+
+
+✓ Validation complete: 12 valid businesses
+
+
+================================================================================
+PHASE 1: COMPREHENSIVE ANALYSIS
+================================================================================
+
+[1/12] Smith Brothers Auto Repair
+  Domain: smithbrosautoftsmith.com
+  • Detecting tech stack...
+  • Assessing sales fit...
+  ✓ Complete (Score: 65, MAYBE)
+
+[2/12] Cossatot River Hardwoods
+  Domain: cossatotriver.com
+  • Detecting tech stack...
+  • Assessing sales fit...
+  ✓ Complete (Score: 80, CONTACT)
+
+[3/12] Belle Grove Antiques
+  Domain: bellegroveantiques.com
+  • Detecting tech stack...
+  • Assessing sales fit...
+  ✓ Complete (Score: 65, MAYBE)
+
+[4/12] Residential Services & Supply
+  Domain: residentialservicesandsupply.com
+  • Detecting tech stack...
+  • Assessing sales fit...
+  ✓ Complete (Score: 65, MAYBE)
+
+[5/12] Ozark Natural Foods
+  Domain: ozarknaturalfoods.com
+  • Detecting tech stack...
+  • Assessing sales fit...
+  ✓ Complete (Score: 65, MAYBE)
+
+[6/12] Fort Smith Convention & Visitors Bureau
+  Domain: fortsmithcvb.com
+  • Detecting tech stack...
+  • Assessing sales fit...
+  ✓ Complete (Score: 65, MAYBE)
+
+[7/12] River Front Court Apartments
+  Domain: riverfrontcourtapartments.com
+  • Detecting tech stack...
+  • Assessing sales fit...
+  ✓ Complete (Score: 65, MAYBE)
+
+[8/12] A1 Plumbing & Drain Service
+  Domain: a1plumbinganddrainservice.com
+  • Detecting tech stack...
+  • Assessing sales fit...
+  ✓ Complete (Score: 65, MAYBE)
+
+[9/12] Williams Roofing & Sheet Metal
+  Domain: williamsroofingandsheetmetal.com
+  • Detecting tech stack...
+  • Assessing sales fit...
+  ✓ Complete (Score: 0, EXCLUDE)
+
+[10/12] Parker Young & Associates CPA
+  Domain: parkeryoungcpa.com
+  • Detecting tech stack...
+  • Assessing sales fit...
+  ✓ Complete (Score: 65, MAYBE)
+
+[11/12] Fort Smith Business Services
+  Domain: fortsmithbusinessservices.com
+  • Detecting tech stack...
+  • Assessing sales fit...
+  ✓ Complete (Score: 65, MAYBE)
+
+[12/12] Architectural Plus Design
+  Domain: architecturalplusdesign.com
+  • Detecting tech stack...
+  • Assessing sales fit...
+  ✓ Complete (Score: 65, MAYBE)
+
+
+================================================================================
+PHASE 2: CSV GENERATION
+================================================================================
+
+✓ CSV created: validated_test_results.csv
+
+
+================================================================================
+PHASE 3: SALES VIABILITY REPORT
+================================================================================
+
+\n================================================================================
+VALIDATED SALES VIABILITY ASSESSMENT - FORT SMITH, AR
+================================================================================\n
+Generated: 2025-10-26 14:44:52\n
+\n================================================================================
+#1 - Cossatot River Hardwoods
+================================================================================\n
+Company: Cossatot River Hardwoods
+Address: 1220 North 14th Street, Fort Smith, AR 72901
+Phone: 479-783-6300
+Website: cossatotriver.com
+Guessed Domain: cossatotriver.com\n
+SALES FIT ASSESSMENT:
+  Score: 80/100
+  Recommendation: CONTACT
+  Reasons:
+    - Local company: Fort Smith, AR
+    - Minimal OSINT data found
+    - Uses WordPress - common platform
+    - Poor security posture - opportunity
+
+\n================================================================================
+#2 - Smith Brothers Auto Repair
+================================================================================\n
+Company: Smith Brothers Auto Repair
+Address: 2324 Garrison Avenue, Fort Smith, AR 72901
+Phone: 479-782-5500
+Website: smithbrosautoftsmith.com
+Guessed Domain: smithbrosautoftsmith.com\n
+SALES FIT ASSESSMENT:
+  Score: 65/100
+  Recommendation: MAYBE
+  Reasons:
+    - Local company: Fort Smith, AR
+    - Minimal OSINT data found
+    - Poor security posture - opportunity
+
+\n================================================================================
+#3 - Belle Grove Antiques
+================================================================================\n
+Company: Belle Grove Antiques
+Address: 221 Garrison Avenue, Fort Smith, AR 72901
+Phone: 479-783-7373
+Website: 
+Guessed Domain: bellegroveantiques.com\n
+SALES FIT ASSESSMENT:
+  Score: 65/100
+  Recommendation: MAYBE
+  Reasons:
+    - Local company: Fort Smith, AR
+    - Minimal OSINT data found
+    - Poor security posture - opportunity
+
+\n================================================================================
+#4 - Residential Services & Supply
+================================================================================\n
+Company: Residential Services & Supply
+Address: 3131 Old Greenwood Road, Fort Smith, AR 72903
+Phone: 479-783-1555
+Website: 
+Guessed Domain: residentialservicesandsupply.com\n
+SALES FIT ASSESSMENT:
+  Score: 65/100
+  Recommendation: MAYBE
+  Reasons:
+    - Local company: Fort Smith, AR
+    - Minimal OSINT data found
+    - Poor security posture - opportunity
+
+\n================================================================================
+#5 - Ozark Natural Foods
+================================================================================\n
+Company: Ozark Natural Foods
+Address: 22 South Old Wire Road, Fort Smith, AR 72901
+Phone: 479-782-5555
+Website: ozarknaturalfoods.com
+Guessed Domain: ozarknaturalfoods.com\n
+SALES FIT ASSESSMENT:
+  Score: 65/100
+  Recommendation: MAYBE
+  Reasons:
+    - Local company: Fort Smith, AR
+    - Minimal OSINT data found
+    - Poor security posture - opportunity
+
+\n================================================================================
+#6 - Fort Smith Convention & Visitors Bureau
+================================================================================\n
+Company: Fort Smith Convention & Visitors Bureau
+Address: 2 North B Street, Fort Smith, AR 72901
+Phone: 479-783-8888
+Website: fortsmithcvb.com
+Guessed Domain: fortsmithcvb.com\n
+SALES FIT ASSESSMENT:
+  Score: 65/100
+  Recommendation: MAYBE
+  Reasons:
+    - Local company: Fort Smith, AR
+    - Minimal OSINT data found
+    - Poor security posture - opportunity
+
+\n================================================================================
+#7 - River Front Court Apartments
+================================================================================\n
+Company: River Front Court Apartments
+Address: 1501 Richmond Terrace, Fort Smith, AR 72901
+Phone: 479-782-1951
+Website: 
+Guessed Domain: riverfrontcourtapartments.com\n
+SALES FIT ASSESSMENT:
+  Score: 65/100
+  Recommendation: MAYBE
+  Reasons:
+    - Local company: Fort Smith, AR
+    - Minimal OSINT data found
+    - Poor security posture - opportunity
+
+\n================================================================================
+#8 - A1 Plumbing & Drain Service
+================================================================================\n
+Company: A1 Plumbing & Drain Service
+Address: 3201 Jenny Lind Road, Fort Smith, AR 72901
+Phone: 479-783-7000
+Website: 
+Guessed Domain: a1plumbinganddrainservice.com\n
+SALES FIT ASSESSMENT:
+  Score: 65/100
+  Recommendation: MAYBE
+  Reasons:
+    - Local company: Fort Smith, AR
+    - Minimal OSINT data found
+    - Poor security posture - opportunity
+
+\n================================================================================
+#9 - Parker Young & Associates CPA
+================================================================================\n
+Company: Parker Young & Associates CPA
+Address: 10 North B Street, Fort Smith, AR 72901
+Phone: 479-784-4700
+Website: parkeryoungcpa.com
+Guessed Domain: parkeryoungcpa.com\n
+SALES FIT ASSESSMENT:
+  Score: 65/100
+  Recommendation: MAYBE
+  Reasons:
+    - Local company: Fort Smith, AR
+    - Minimal OSINT data found
+    - Poor security posture - opportunity
+
+\n================================================================================
+#10 - Fort Smith Business Services
+================================================================================\n
+Company: Fort Smith Business Services
+Address: 623 Garrison Avenue, Fort Smith, AR 72901
+Phone: 479-783-5566
+Website: 
+Guessed Domain: fortsmithbusinessservices.com\n
+SALES FIT ASSESSMENT:
+  Score: 65/100
+  Recommendation: MAYBE
+  Reasons:
+    - Local company: Fort Smith, AR
+    - Minimal OSINT data found
+    - Poor security posture - opportunity
+
+\n================================================================================
+#11 - Architectural Plus Design
+================================================================================\n
+Company: Architectural Plus Design
+Address: 1001 Rogers Avenue, Fort Smith, AR 72901
+Phone: 479-783-8765
+Website: 
+Guessed Domain: architecturalplusdesign.com\n
+SALES FIT ASSESSMENT:
+  Score: 65/100
+  Recommendation: MAYBE
+  Reasons:
+    - Local company: Fort Smith, AR
+    - Minimal OSINT data found
+    - Poor security posture - opportunity
+
+\n================================================================================
+#12 - Williams Roofing & Sheet Metal
+================================================================================\n
+Company: Williams Roofing & Sheet Metal
+Address: 2316 Dodson Avenue, Fort Smith, AR 72901
+Phone: 479-782-5522
+Website: 
+Guessed Domain: williamsroofingandsheetmetal.com\n
+SALES FIT ASSESSMENT:
+  Score: 0/100
+  Recommendation: EXCLUDE
+  Reasons:
+    - Matches exclusion keyword: meta
+
+
+================================================================================
+TEST SUMMARY
+================================================================================
+
+Total businesses found: 12
+Validated businesses: 12
+Processed businesses: 12
+Excellent fit (CONTACT): 1
+Good fit (CONTACT/MAYBE): 11
+
+Output files:
+  - CSV data: validated_test_results.csv
+  - Final report: validated_test_final_report.txt
+
+Completed: 2025-10-26 14:44:52
+
+
+✓ Test complete!
+Processed 12 validated businesses
