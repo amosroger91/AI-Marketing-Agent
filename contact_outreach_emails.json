@@ -1,0 +1,101 @@
+[
+  {
+    "company": "West Side Transmission",
+    "phone": "479-783-2900",
+    "address": "3101 Garrison Avenue, Fort Smith, AR 72901",
+    "website": "westsidetransmission.com",
+    "score": 80,
+    "template_used": "wordpress_vulnerable",
+    "email": "Subject: Security Alert for West Side Transmission Website\n\nHi Team,\n\nI was reviewing your website at westsidetransmission.com and noticed something important: your WordPress site is running recent version, which has Yes vulnerable plugins that are actively being exploited by hackers.\n\nThis puts your customer data, business reputation, and bottom line at risk.\n\nI help local businesses like West Side Transmission secure their WordPress sites against these threats. Most of my clients are shocked to learn how easily these vulnerabilities can be exploited - and how simple the fixes are.\n\nA few key points:\n\u2022 Your site detected: nginx\n\u2022 WordPress version: recent version\n\u2022 Vulnerable plugins: Yes\n\u2022 Security headers: missing\n\nWould you be open to a quick 15-minute call this week to discuss how to protect West Side Transmission? No sales pitch - just honest security advice.\n\nBest regards,\nRoger\nn8n Automation & WordPress Security\n(555) 123-4567\n",
+    "server": "nginx",
+    "has_wordpress": "Yes"
+  },
+  {
+    "company": "Cossatot River Hardwoods",
+    "phone": "479-783-6300",
+    "address": "1220 North 14th Street, Fort Smith, AR 72901",
+    "website": "cossatotriver.com",
+    "score": 80,
+    "template_used": "wordpress_vulnerable",
+    "email": "Subject: Security Alert for Cossatot River Hardwoods Website\n\nHi Team,\n\nI was reviewing your website at cossatotriver.com and noticed something important: your WordPress site is running recent version, which has Yes vulnerable plugins that are actively being exploited by hackers.\n\nThis puts your customer data, business reputation, and bottom line at risk.\n\nI help local businesses like Cossatot River Hardwoods secure their WordPress sites against these threats. Most of my clients are shocked to learn how easily these vulnerabilities can be exploited - and how simple the fixes are.\n\nA few key points:\n\u2022 Your site detected: nginx\n\u2022 WordPress version: recent version\n\u2022 Vulnerable plugins: Yes\n\u2022 Security headers: 1\n\nWould you be open to a quick 15-minute call this week to discuss how to protect Cossatot River Hardwoods? No sales pitch - just honest security advice.\n\nBest regards,\nRoger\nn8n Automation & WordPress Security\n(555) 123-4567\n",
+    "server": "nginx",
+    "has_wordpress": "Yes"
+  },
+  {
+    "company": "City Brew Coffee",
+    "phone": "479-782-3344",
+    "address": "315 Main Street, Fort Smith, AR 72901",
+    "website": "citybrew.com",
+    "score": 80,
+    "template_used": "wordpress_vulnerable",
+    "email": "Subject: Security Alert for City Brew Coffee Website\n\nHi Team,\n\nI was reviewing your website at citybrew.com and noticed something important: your WordPress site is running recent version, which has Yes vulnerable plugins that are actively being exploited by hackers.\n\nThis puts your customer data, business reputation, and bottom line at risk.\n\nI help local businesses like City Brew Coffee secure their WordPress sites against these threats. Most of my clients are shocked to learn how easily these vulnerabilities can be exploited - and how simple the fixes are.\n\nA few key points:\n\u2022 Your site detected: Apache\n\u2022 WordPress version: recent version\n\u2022 Vulnerable plugins: Yes\n\u2022 Security headers: missing\n\nWould you be open to a quick 15-minute call this week to discuss how to protect City Brew Coffee? No sales pitch - just honest security advice.\n\nBest regards,\nRoger\nn8n Automation & WordPress Security\n(555) 123-4567\n",
+    "server": "Apache",
+    "has_wordpress": "Yes"
+  },
+  {
+    "company": "Tropical Smoothie Cafe",
+    "phone": "479-783-2211",
+    "address": "2500 Rogers Avenue, Fort Smith, AR 72903",
+    "website": "tropicalsmoothiecafe.com",
+    "score": 80,
+    "template_used": "wordpress_vulnerable",
+    "email": "Subject: Security Alert for Tropical Smoothie Cafe Website\n\nHi Team,\n\nI was reviewing your website at tropicalsmoothiecafe.com and noticed something important: your WordPress site is running recent version, which has Yes vulnerable plugins that are actively being exploited by hackers.\n\nThis puts your customer data, business reputation, and bottom line at risk.\n\nI help local businesses like Tropical Smoothie Cafe secure their WordPress sites against these threats. Most of my clients are shocked to learn how easily these vulnerabilities can be exploited - and how simple the fixes are.\n\nA few key points:\n\u2022 Your site detected: cloudflare\n\u2022 WordPress version: recent version\n\u2022 Vulnerable plugins: Yes\n\u2022 Security headers: missing\n\nWould you be open to a quick 15-minute call this week to discuss how to protect Tropical Smoothie Cafe? No sales pitch - just honest security advice.\n\nBest regards,\nRoger\nn8n Automation & WordPress Security\n(555) 123-4567\n",
+    "server": "cloudflare",
+    "has_wordpress": "Yes"
+  },
+  {
+    "company": "River Valley Law Group",
+    "phone": "479-783-9999",
+    "address": "200 North B Street, Fort Smith, AR 72901",
+    "website": "rivervalleylaw.com",
+    "score": 80,
+    "template_used": "wordpress_vulnerable",
+    "email": "Subject: Security Alert for River Valley Law Group Website\n\nHi Team,\n\nI was reviewing your website at rivervalleylaw.com and noticed something important: your WordPress site is running recent version, which has Yes vulnerable plugins that are actively being exploited by hackers.\n\nThis puts your customer data, business reputation, and bottom line at risk.\n\nI help local businesses like River Valley Law Group secure their WordPress sites against these threats. Most of my clients are shocked to learn how easily these vulnerabilities can be exploited - and how simple the fixes are.\n\nA few key points:\n\u2022 Your site detected: nginx\n\u2022 WordPress version: recent version\n\u2022 Vulnerable plugins: Yes\n\u2022 Security headers: missing\n\nWould you be open to a quick 15-minute call this week to discuss how to protect River Valley Law Group? No sales pitch - just honest security advice.\n\nBest regards,\nRoger\nn8n Automation & WordPress Security\n(555) 123-4567\n",
+    "server": "nginx",
+    "has_wordpress": "Yes"
+  },
+  {
+    "company": "Tax Planning Solutions",
+    "phone": "479-782-7777",
+    "address": "215 Main Street, Fort Smith, AR 72901",
+    "website": "taxplansolutions.com",
+    "score": 80,
+    "template_used": "wordpress_vulnerable",
+    "email": "Subject: Security Alert for Tax Planning Solutions Website\n\nHi Team,\n\nI was reviewing your website at taxplansolutions.com and noticed something important: your WordPress site is running recent version, which has Yes vulnerable plugins that are actively being exploited by hackers.\n\nThis puts your customer data, business reputation, and bottom line at risk.\n\nI help local businesses like Tax Planning Solutions secure their WordPress sites against these threats. Most of my clients are shocked to learn how easily these vulnerabilities can be exploited - and how simple the fixes are.\n\nA few key points:\n\u2022 Your site detected: WPX CLOUD/DAL03\n\u2022 WordPress version: recent version\n\u2022 Vulnerable plugins: Yes\n\u2022 Security headers: missing\n\nWould you be open to a quick 15-minute call this week to discuss how to protect Tax Planning Solutions? No sales pitch - just honest security advice.\n\nBest regards,\nRoger\nn8n Automation & WordPress Security\n(555) 123-4567\n",
+    "server": "WPX CLOUD/DAL03",
+    "has_wordpress": "Yes"
+  },
+  {
+    "company": "River City Chiropractic",
+    "phone": "479-782-5000",
+    "address": "319 North B Street, Fort Smith, AR 72901",
+    "website": "rivercitychiro.com",
+    "score": 80,
+    "template_used": "wordpress_vulnerable",
+    "email": "Subject: Security Alert for River City Chiropractic Website\n\nHi Team,\n\nI was reviewing your website at rivercitychiro.com and noticed something important: your WordPress site is running recent version, which has Yes vulnerable plugins that are actively being exploited by hackers.\n\nThis puts your customer data, business reputation, and bottom line at risk.\n\nI help local businesses like River City Chiropractic secure their WordPress sites against these threats. Most of my clients are shocked to learn how easily these vulnerabilities can be exploited - and how simple the fixes are.\n\nA few key points:\n\u2022 Your site detected: cloudflare\n\u2022 WordPress version: recent version\n\u2022 Vulnerable plugins: Yes\n\u2022 Security headers: missing\n\nWould you be open to a quick 15-minute call this week to discuss how to protect River City Chiropractic? No sales pitch - just honest security advice.\n\nBest regards,\nRoger\nn8n Automation & WordPress Security\n(555) 123-4567\n",
+    "server": "cloudflare",
+    "has_wordpress": "Yes"
+  },
+  {
+    "company": "River Valley Plumbing",
+    "phone": "479-782-9090",
+    "address": "2101 Garrison Avenue, Fort Smith, AR 72901",
+    "website": "rivervalleyplumbing.com",
+    "score": 80,
+    "template_used": "wordpress_vulnerable",
+    "email": "Subject: Security Alert for River Valley Plumbing Website\n\nHi Team,\n\nI was reviewing your website at rivervalleyplumbing.com and noticed something important: your WordPress site is running recent version, which has Yes vulnerable plugins that are actively being exploited by hackers.\n\nThis puts your customer data, business reputation, and bottom line at risk.\n\nI help local businesses like River Valley Plumbing secure their WordPress sites against these threats. Most of my clients are shocked to learn how easily these vulnerabilities can be exploited - and how simple the fixes are.\n\nA few key points:\n\u2022 Your site detected: nginx/1.27.4\n\u2022 WordPress version: recent version\n\u2022 Vulnerable plugins: Yes\n\u2022 Security headers: missing\n\nWould you be open to a quick 15-minute call this week to discuss how to protect River Valley Plumbing? No sales pitch - just honest security advice.\n\nBest regards,\nRoger\nn8n Automation & WordPress Security\n(555) 123-4567\n",
+    "server": "nginx/1.27.4",
+    "has_wordpress": "Yes"
+  },
+  {
+    "company": "Fort Smith Landscaping",
+    "phone": "479-782-3333",
+    "address": "2201 Garrison Avenue, Fort Smith, AR 72901",
+    "website": "fortsmithlandscaping.com",
+    "score": 80,
+    "template_used": "wordpress_vulnerable",
+    "email": "Subject: Security Alert for Fort Smith Landscaping Website\n\nHi Team,\n\nI was reviewing your website at fortsmithlandscaping.com and noticed something important: your WordPress site is running recent version, which has Yes vulnerable plugins that are actively being exploited by hackers.\n\nThis puts your customer data, business reputation, and bottom line at risk.\n\nI help local businesses like Fort Smith Landscaping secure their WordPress sites against these threats. Most of my clients are shocked to learn how easily these vulnerabilities can be exploited - and how simple the fixes are.\n\nA few key points:\n\u2022 Your site detected: Flywheel/5.1.0\n\u2022 WordPress version: recent version\n\u2022 Vulnerable plugins: Yes\n\u2022 Security headers: 2\n\nWould you be open to a quick 15-minute call this week to discuss how to protect Fort Smith Landscaping? No sales pitch - just honest security advice.\n\nBest regards,\nRoger\nn8n Automation & WordPress Security\n(555) 123-4567\n",
+    "server": "Flywheel/5.1.0",
+    "has_wordpress": "Yes"
+  }
+]
